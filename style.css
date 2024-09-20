@@ -206,6 +206,7 @@ body{
 .about__text p{
     margin-top: 0;
     margin-bottom: 0;
+    color: #1b1c21;
 }
 
 .about__img{
@@ -226,11 +227,12 @@ body{
 .about__link-text{
     font-size: 16px;
     font-weight: 500;
+    color: #1b1c21;
 }
 
 /*------------------------------------------------*/
 
-@media (width: 768px){
+@media (min-width: 768px) and (max-width: 1119px){
     body{
         width: 768px;
         height: 504px;
@@ -276,7 +278,7 @@ body{
 }
 
 
-@media (width: 1120px){
+@media (min-width: 1120px){
     body{
         width: 1120px;
         height: 535px;
