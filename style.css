@@ -7,15 +7,17 @@ html{
 }
 
 body{
-    width: 320px;
-    height: 597px;
     /* overflow-x: hidden; */
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     background-color: #f8f8f8;
     font-family: "TT Lakes", sans-serif;
 }
 
+/* .container{
+    width: 320px;
+    margin: 0 auto;
+} */
 /*header*/
 
 .header{
@@ -169,6 +171,7 @@ body{
     height: 40px;
     font-size: 16px;
     padding: 8px 12.13px;
+    display: inline-block;
 }
 
 .list a{
@@ -180,6 +183,7 @@ body{
 .list__item:hover{
     border: 3px solid #b8ffec;
     border-radius: 6px;
+    padding: 6px 12.13px 8px;
 }
 
 
@@ -230,6 +234,10 @@ body{
     color: #1b1c21;
 }
 
+.about__img-big{
+    display: block;
+    margin: 0 auto;
+}
 /*------------------------------------------------*/
 
 @media (min-width: 768px) and (max-width: 1119px){
@@ -267,6 +275,7 @@ body{
         width: 360px;
         height: 208px;
         border-radius: 10px;
+        margin: 0;
     }
     .title__text{
         padding-top: 30px;
@@ -321,6 +330,7 @@ body{
         width: 531.35px;
         height: 307px;
         border-radius: 10px;
+        margin: 0;
     }
     .header{
         display: none;
